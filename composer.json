@@ -1,1 +1,9 @@
-{ "require": { "php": "^ 8.1.4" } }
+{
+    "name": "dell/tem100",
+    "autoload": {
+        "psr-4": {
+            "Dell\\Tem100\\": "src/"
+        }
+    },
+    "require": {"php": "^8.1.4"}
+}
